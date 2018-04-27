@@ -50,7 +50,7 @@
 //    CGFloat nameW = size.width;
     // 从新布局图片内容imageView
     self.imageView.frame = CGRectMake(0, 0, 30, 30);
-    self.titleLabel.frame = CGRectMake(33, 0, self.mj_w-33, 30);
+    self.titleLabel.frame = CGRectMake(33, 0, self.frame.size.width-33, 30);
     // 2、计算image
 //    self.imageView.mj_x = CGRectGetMaxX(self.titleLabel.frame) +3;
 //    self.titleEdgeInsets = UIEdgeInsetsMake(0, -self.imageView.mj_w, 0, self.imageView.mj_w);
